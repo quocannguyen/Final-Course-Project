@@ -7,7 +7,7 @@ Language: C Plus Plus
 
 main() is in Final Course Project.cpp.
 
-3 class:
+3 classes:
 - BankAccount
 - SavingsAccount : BankAccount
 - CheckingAccount : BankAccount
