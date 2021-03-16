@@ -24,6 +24,7 @@ void CheckingAccount::withdraw(float amount) {
 
 void CheckingAccount::monthlyProc() {
 	serviceCharges += baseMonthlyFee + feePerWithdrawal * numberOfWithdrawals;
+	BankAccount::monthlyProc();
 }
 
 void CheckingAccount::display() {
