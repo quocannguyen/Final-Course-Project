@@ -1,6 +1,5 @@
-#pragma once
-
 // Preprocessor directive
+#pragma once
 #include "BankAccount.h" // Class BankAccount
 
 class SavingsAccount : public BankAccount {

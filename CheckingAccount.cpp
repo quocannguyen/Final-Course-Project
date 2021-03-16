@@ -2,6 +2,10 @@
 #include "CheckingAccount.h"	// Class CheckingAccount
 #include <iostream>				// cout
 
+float CheckingAccount::balanceBelow0Fee = 15;
+float CheckingAccount::baseMonthlyFee = 5;
+float CheckingAccount::feePerWithdrawal = 0.1;
+
 CheckingAccount::CheckingAccount(float balance, float interestRate) : BankAccount(balance, interestRate) {}
 
 void CheckingAccount::deposit(float amount) { BankAccount::deposit(amount); }

@@ -1,3 +1,4 @@
+// Preprocessor directive
 #pragma once
 
 class BankAccount {
